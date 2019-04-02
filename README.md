@@ -1,3 +1,3 @@
 # IterNorm
-Code for Iterative Normalization (IterNorm), accepted by CVPR. 
+Code for Iterative Normalization (IterNorm), accepted by CVPR 2019.  
 ## I will update this project soon...
