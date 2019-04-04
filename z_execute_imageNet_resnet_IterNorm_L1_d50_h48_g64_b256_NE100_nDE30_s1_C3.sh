@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 th exp_2_imageNet.lua -model imagenet/resnet_IterNorm_L1 -depth 50  -m_perGroup 64  -batchSize 256 -LR 0.1 -weightDecay 0.0001 -nEpochs 100 -nDecayEpoch 30 -N_SVD_updateEpoch 100  -nGPU 4
