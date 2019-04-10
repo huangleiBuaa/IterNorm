@@ -50,7 +50,7 @@ bash y_execute_wr.sh
  *  Install the IterNorm module to Torch as a Lua package: go to the directory `./models/imagenet/cuSpatialDBN/` and run  `luarocks make cudbn-1.0-0.rockspec`. (Note that this module is the same as in the `./module/spatial` and we use it for convinience in  training ImageNet with multithreads.)
  *  run the script with `z_execute_imageNet_***'
  
- ## This project is based on the scripts of [Wide Residual Network repo](https://github.com/szagoruyko/wide-residual-networks) and  [Facebook's ResNet repo](https://github.com/facebook/fb.resnet.torch).
+ ### This project is based on the training scripts of [Wide Residual Network repo](https://github.com/szagoruyko/wide-residual-networks) and  [Facebook's ResNet repo](https://github.com/facebook/fb.resnet.torch).
  
  ## Contact
 Email: lei.huang@inceptioniai.org. Discussions and suggestions are welcome!
