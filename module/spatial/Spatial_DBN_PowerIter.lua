@@ -271,8 +271,10 @@ function Spatial_DBN_PowerIter:updateGradInput(input, gradOutput)
      if self.nIter==0 then
         self.dSigma=-torch.trace(self.dC)/(2*trace^(3/2)) * eye_nDim
      else
-        local s1=torch.trace(self.dA:t()*sigma)
-        local s2=torch.trace(self.dC:t()*set_X[self.nIter]) 
+        --local s1=torch.trace(self.dA:t()*sigma)
+        local s1=torch.cmul(self.dA, sigma):sum() --more efficient implementation
+        --local s2=torch.trace(self.dC:t()*set_X[self.nIter]) 
+        local s2=torch.cmul(self.dC, set_X[self.nIter]):sum()
         self.dSigma=-(s1/(trace^2)+s2/(2*trace^(3/2)))*eye_nDim
         self.dSigma=self.dSigma+self.dA/trace
      end
