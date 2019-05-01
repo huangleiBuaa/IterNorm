@@ -13,6 +13,7 @@ Lei Huang, Yi Zhou, Fan Zhu, Li Liu, Ling Shao
 This is the torch implementation (results of experimetns are based on this implementation). Other implementation are shown as follows: 
 
 ### [1. pytorch re-implementation](https://github.com/huangleiBuaa/IterNorm-pytorch)
+==============================================================================================
 
 ## Requirements and Dependency
 * Install [Torch](http://torch.ch) with CUDA (for GPU).
