@@ -12,7 +12,8 @@ Lei Huang, Yi Zhou, Fan Zhu, Li Liu, Ling Shao
 
 This is the torch implementation (results of experimetns are based on this implementation). Other implementation are shown as follows: 
 
-### [1. pytorch re-implementation](https://github.com/huangleiBuaa/IterNorm-pytorch)
+### [1. Pytorch re-implementation](https://github.com/huangleiBuaa/IterNorm-pytorch)
+### [2. Tensorflow implementation](https://github.com/bhneo/decorrelated_bn) by Lei Zhao. 
 ==============================================================================================
 
 ## Requirements and Dependency
