@@ -14,7 +14,7 @@ This is the torch implementation (results of experimetns are based on this imple
 
 ### [1. Pytorch re-implementation](https://github.com/huangleiBuaa/IterNorm-pytorch)
 ### [2. Tensorflow implementation](https://github.com/bhneo/decorrelated_bn) by Lei Zhao. 
-==============================================================================================
+=======================================================================
 
 ## Requirements and Dependency
 * Install [Torch](http://torch.ch) with CUDA (for GPU).
