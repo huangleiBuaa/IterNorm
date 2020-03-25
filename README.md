@@ -6,7 +6,7 @@ Code for reproducing the results in the following paper:
 
 Lei Huang, Yi Zhou, Fan Zhu, Li Liu, Ling Shao
 
-*IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019 (accepted).*
+*IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.*
 [arXiv:1904.03441](https://arxiv.org/abs/1904.03441)
 
 
