@@ -55,4 +55,4 @@ bash y_execute_wr.sh
  ### This project is based on the training scripts of [Wide Residual Network repo](https://github.com/szagoruyko/wide-residual-networks) and  [Facebook's ResNet repo](https://github.com/facebook/fb.resnet.torch).
  
  ## Contact
-Email: lei.huang@inceptioniai.org. Discussions and suggestions are welcome!
+Email: huanglei@nlsde.buaa.edu.cn.. Discussions and suggestions are welcome!
